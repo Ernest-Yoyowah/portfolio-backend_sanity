@@ -4,6 +4,12 @@ export default {
   type: 'document',
   fields: [
     {
+      name: 'email',
+      title: 'Email Address',
+      type: 'string',
+      validation: (Rule) => Rule.email().error('Please enter a valid email address'),
+    },
+    {
       name: 'phone',
       title: 'Phone Number',
       type: 'string',
