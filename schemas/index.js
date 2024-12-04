@@ -11,6 +11,7 @@ import post from './post'
 import aboutme from './aboutMe'
 import articles from './articles'
 import portfolio from './portfolio'
+import footer from './footer'
 
 export const schemaTypes = [
   aboutme,
@@ -25,5 +26,6 @@ export const schemaTypes = [
   experiences,
   contact,
   education,
+  footer,
   post,
 ]
