@@ -26,6 +26,14 @@ export default {
       },
     },
     {
+      name: 'imgBanner',
+      title: 'Image Banner',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: 'role',
       title: 'Role',
       type: 'string',
